@@ -1,0 +1,159 @@
+body {
+  background-color: aliceblue;
+  margin: unset;
+}
+.nav-bar {
+  background-color: white;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon-nav-bar {
+  margin-left: 15px;
+}
+.icon-search {
+  height: 80%;
+  width: 100%;
+}
+.nav-bar-right-side {
+  height: 40%;
+  max-width: 40%;
+  display: flex;
+  align-items: center;
+}
+.search-bar {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.shopping-icon {
+  margin-left: 20px;
+  margin-right: 15px;
+}
+
+.main-vid {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+video {
+  width: -webkit-fill-available;
+  object-fit: contain;
+  overflow-clip-margin: content-box;
+}
+.main-text {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  color: snow;
+  font-size: 140%;
+  text-align: center;
+  width: 80%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+#about {
+text-align: center;}
+#carrer {
+text-align: center;}
+#stats {
+  text-align: center;
+}
+#head-line {
+  text-align: center;
+  color: lightcyan;
+  font-size: 50px;
+  text-decoration: wavy;
+  margin-bottom: 2em;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product {
+  width: 250px;
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px grey;
+}
+
+.product img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.product h3 {
+  text-align: center;
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.product p {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+}
+
+.product button {
+  margin-left: 75px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.product button:hover {
+  background-color: gray;
+}
+
+footer {
+  background-color: #333;
+  height: 70px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.social-media {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.contact-us h3 {
+  margin-bottom: 10px;
+}
+
+.nav-bar a{
+all: unset;
+cursor: pointer;
+}
+
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+}
