@@ -58,6 +58,9 @@ h2 {
 
 .product-info img {
 	max-width: 400px;
+	margin-right: 50px;
+	margin-left: 85px;
+	margin-top: 60px;
 }
 
 .description {
@@ -91,10 +94,12 @@ ul {
 	display: block;
 	margin-top: 120px;
 	margin-left: 15px;
+	text-decoration: none;
 }
 #home-button:hover{
 	background-color: aqua;
 	cursor: pointer;
+	text-decoration: none;
 }
 .prev-price{
     text-decoration: line-through;
