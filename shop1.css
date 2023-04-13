@@ -58,7 +58,6 @@ h2 {
 
 .product-info img {
 	max-width: 400px;
-	margin-right: 50px;
 }
 
 .description {
@@ -104,6 +103,7 @@ footer {
 	display: flex;
 	justify-content: space-between;
 }
+
 @media screen and (max-width: 768px) {
     div {
         width: 100px;
